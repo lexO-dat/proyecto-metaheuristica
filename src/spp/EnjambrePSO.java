@@ -53,9 +53,9 @@ public class EnjambrePSO {
         this.dimension       = objetos.size();
         this.numParticulas   = numParticulas;
         this.maxIteraciones  = maxIteraciones;
-        this.c1 = 2.0;
-        this.c2 = 2.0;
-        this.wInicial = 0.9;
+        this.c1 = 1.468;
+        this.c2 = 1.468;
+        this.wInicial = 0.724;
         this.wFinal   = 0.4;
         this.vMax     = 6.0;
         this.rand     = new Random(semilla);
